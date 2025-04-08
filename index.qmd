@@ -1,0 +1,56 @@
+---
+title: "W3TM Projects"
+subtitle: "NARC mtg 2025-04-08"
+author: "Rick O. Gilmore"
+format: 
+  revealjs:
+    theme: default
+    footer: "NARC 2025-04-08"
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    background-transition: concave
+    fig-align: center
+    # multiplex: true
+    # logo: include/img/databrary-new-leaf.jpg
+# bibliography: include/bib/hk-polytech.bib
+# bibliographystyle: apa
+# css: include/css/gilmore-revealjs.css
+# params:
+#   talk_url: "https://gilmore-lab.github.io/2025-02-14-hong-kong-polytech"
+---
+
+## Overview
+
+- Club mountaintop station manual
+- Ham blog, station manual
+- New Ham Book
+
+## Station manual
+
+```{r}
+#| echo: false
+#| fig-cap: https://nittany-amateur-radio-club.github.io/station
+plot(qrcode::qr_code("https://nittany-amateur-radio-club.github.io/station"))
+```
+
+## Ham blog
+
+```{r}
+#| echo: false
+#| fig-cap: https://w3tm.org
+plot(qrcode::qr_code("https://w3tm.org"))
+```
+
+## New Ham Book
+
+```{r}
+#| echo: false
+#| fig-cap: https://w3tm.org/new-ham-book
+plot(qrcode::qr_code("https://w3tm.org/new-ham-book"))
+```
+
+
